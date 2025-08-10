@@ -70,9 +70,10 @@ export default {
     			400: '0.4s',
   			},
 				fontFamily: {
-					display: ['"Great Vibes"', 'cursive'],
+			
 					sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-					amiri: ['"Amiri"', 'serif']
+					 display: ['"Noto Nastaliq Urdu"', 'serif'], // For headings & decorative text
+        			amiri: ['"Scheherazade New"', 'serif'], 
 				},
 			borderRadius: {
 				lg: 'var(--radius)',

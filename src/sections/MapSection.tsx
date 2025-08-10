@@ -1,22 +1,22 @@
 const MapSection = () => {
-  const venueName = "Haji Ali Function Hall";
-  const address = "Roshan Gate, Aurangabad";
-  const description = "Parking available, near Haji ali Hall";
+  const venueName = "حاجی علی فنکشن ہال";
+  const address = "روشن گیٹ، اورنگ آباد";
+  const description = "پارکنگ دستیاب ہے، حاجی علی ہال کے قریب";
 
-  const plusCode = "V8PW+W7 Chhatrapati Sambhajinagar, Maharashtra";
+  const plusCode = "V8PW+W7 چھترپتی سنبھاجی نگر، مہاراشٹر";
 
   return (
     <section
       id="map"
       aria-labelledby="map-title"
-      className="container mx-auto py-16 md:py-24"
+      className="container mx-auto py-16 md:py-24 font-display"
     >
       <div className="text-center animate-fade-in">
         <h2
           id="map-title"
-          className="font-amiri text-4xl md:text-5xl text-accent-foreground tracking-wide"
+          className="text-4xl md:text-5xl text-accent-foreground tracking-wide"
         >
-          Venue Location
+          مقام کا پتہ
         </h2>
         <div className="mt-6 flex items-center justify-center gap-3 text-accent-foreground/70">
           <span className="h-px w-16 bg-accent/50" />
@@ -28,34 +28,34 @@ const MapSection = () => {
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start">
         {/* Venue Details */}
         <div className="order-2 md:order-1 bg-card/80 backdrop-blur-sm border border-accent/30 rounded-lg shadow-md p-6 animate-fade-in">
-          <dl className="space-y-3">
+          <dl className="space-y-3 text-right">
             <div>
               <dt className="text-sm uppercase tracking-wide text-muted-foreground">
-                Venue
+                مقام
               </dt>
               <dd className="text-foreground font-medium">{venueName}</dd>
             </div>
             <div>
               <dt className="text-sm uppercase tracking-wide text-muted-foreground">
-                Address
+                پتہ
               </dt>
               <dd className="text-foreground font-medium">{address}</dd>
             </div>
             <div>
               <dt className="text-sm uppercase tracking-wide text-muted-foreground">
-                Notes
+                نوٹس
               </dt>
               <dd className="text-muted-foreground">{description}</dd>
             </div>
           </dl>
-          <div className="mt-4 flex gap-3">
+          <div className="mt-4 flex gap-3 justify-end">
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(plusCode)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="underline story-link text-accent-foreground"
             >
-              Open in Google Maps
+              Open Google Map
             </a>
           </div>
         </div>

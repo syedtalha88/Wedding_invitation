@@ -18,7 +18,7 @@ const Nav = () => (
       <div className="flex items-center gap-4 text-muted-foreground">
         <Heart size={16} className="opacity-70" />
         <span className="h-px w-16 bg-foreground/20 rounded-full" />
-        <span className="font-display text-3xl text-accent-foreground">Marriage Ceremony</span>
+        <span className="font-display text-3xl text-accent-foreground">تقریبِ نکاح</span>
         <span className="h-px w-16 bg-foreground/20 rounded-full" />
         <Heart size={16} className="opacity-70" />
       </div>
@@ -26,7 +26,7 @@ const Nav = () => (
     <div className="md:hidden container mx-auto py-3 flex items-center justify-center">
       <div className="flex items-center gap-3 text-muted-foreground">
         <Heart size={14} className="opacity-70" />
-        <span className="font-display text-3xl text-accent-foreground">Marriage Ceremony</span>
+        <span className="font-display text-3xl text-accent-foreground">تقریبِ نکاح</span>
         <Heart size={14} className="opacity-70" />
       </div>
     </div>
@@ -50,7 +50,7 @@ const NamesSection = () => (
     <h2 id="names-title" className="sr-only">Bride and Groom</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start text-center">
       <article className="space-y-3">
-        <h3 className="font-display text-3xl text-foreground">Talha</h3>
+        <h3 className="font-display text-3xl text-foreground">طلحہ </h3>
         <p className="text-muted-foreground max-w-md mx-auto">
           We are delighted to celebrate our union with family and friends.
         </p>
@@ -99,7 +99,7 @@ const Countdown = () => {
       aria-labelledby="countdown-title"
     >
       <h2 id="countdown-title" className="sr-only">
-        Wedding Countdown
+        شادی کا کاؤنٹ ڈاؤن
       </h2>
       <div className="grid grid-cols-4 max-w-xl mx-auto gap-6 text-center">
         <div className="space-y-1">
@@ -145,13 +145,13 @@ const NikahSection = () => {
     <section className="container mx-auto pb-16 md:pb-24" aria-labelledby="nikah-title">
       <div className="text-center mb-8 md:mb-10">
         <h2 id="nikah-title" className="font-amiri pb-12 text-4xl md:text-5xl text-accent-foreground tracking-wide">
-          Insha Allah
+          ان شاء اللہ
         </h2>
         <h2 id="nikah-title" className="font-amiri text-4xl md:text-5xl text-accent-foreground tracking-wide">
-          Nikah
+          نکاح
         </h2>
-        <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto italic">
-          "And He placed between you affection and mercy." — Surah Ar-Rum 30:21
+        <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl leading-loose mx-auto italic py-5">
+           "اور اس نے تمہارے درمیان محبت اور رحمت پیدا کر دی۔" — سورۃ الروم 30:21
         </p>
         <div className="mt-6 flex items-center justify-center gap-3 text-accent-foreground/70">
           <span className="h-px w-16 bg-accent/50" />
@@ -171,23 +171,21 @@ const NikahSection = () => {
 
         <article className="animate-fade-in">
           <div className="bg-background/70 backdrop-blur-sm border rounded-lg p-6 md:p-8 shadow-md">
-            <h3 className="sr-only">Nikah Details</h3>
+            <h3 className="sr-only">تفصیلات نکاح</h3>
             <dl className="space-y-4">
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">Venue</dt>
-                <dd className="text-foreground font-medium">Jama Masjid, Aurangabad</dd>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">مقام</dt>
+                <dd className="text-foreground font-medium">جامع مسجد، اورنگ آباد</dd>
               </div>
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">Date & Time</dt>
-                <dd className="text-foreground font-medium">[Date], [Time]</dd>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">تاریخ و وقت</dt>
+                <dd className="text-foreground font-medium">15 ستمبر sep , بعد نمازِ عصر</dd>
               </div>
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground"></dt>
-                <dd className="text-muted-foreground">
-                 In shaa Allah, our Nikah will  take place at the historic Jama Masjid, Aurangabad — a blessed house of Allah, filled with barakah and the fragrance of faith.
+                <dd className="text-muted-foreground leading-loose">
+                  ان شاء اللہ ہمارا نکاح تاریخی جامع مسجد، اورنگ آباد میں منعقد ہوگا — اللہ کے گھر میں، برکتوں اور ایمان کی خوشبو سے مہکتا ہوا۔
                 </dd>
               </div>
-              
             </dl>
           </div>
         </article>
@@ -205,16 +203,16 @@ const NikahSection = () => {
 
 const WalimaSection = () => {
   return (
-    <section className="container mx-auto pb-16 md:pb-24" aria-labelledby="nikah-title">
+    <section className="container mx-auto pb-16 md:pb-24" aria-labelledby="walima-title">
       <div className="text-center mb-8 md:mb-10">
-        <h2 id="nikah-title" className="font-amiri pb-12 text-4xl md:text-5xl text-accent-foreground tracking-wide">
-          Insha Allah
+        <h2 id="walima-title" className="font-amiri pb-12 text-4xl md:text-5xl text-accent-foreground tracking-wide">
+          ان شاء اللہ
         </h2>
-        <h2 id="nikah-title" className="font-amiri text-4xl md:text-5xl text-accent-foreground tracking-wide">
-          Walima
+        <h2 className="font-amiri text-4xl md:text-5xl text-accent-foreground tracking-wide">
+          ولیمہ
         </h2>
-        <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto italic">
-          "O Believers, Eat from the good things We have provided for you and be grateful to Allah." — Surah Al-Baqarah 2:172
+        <p className="mt-3 text-sm md:text-base text-muted-foreground max-w-2xl mx-auto italic  leading-loose">
+          "اے ایمان والو! ہم نے جو پاکیزہ چیزیں تمہیں عطا کی ہیں ان میں سے کھاؤ اور اللہ کا شکر ادا کرو۔" — سورۃ البقرہ 2:172
         </p>
         <div className="mt-6 flex items-center justify-center gap-3 text-accent-foreground/70">
           <span className="h-px w-16 bg-accent/50" />
@@ -227,30 +225,28 @@ const WalimaSection = () => {
         <div className="animate-fade-in">
           <div className="p-3 bg-card border rounded-lg shadow-lg">
             <div className="overflow-hidden rounded-t-[120px] border border-accent/30 shadow-md">
-              <img src={Haji} alt="Nikah venue" loading="lazy" className="w-full h-80 object-cover" />
+              <img src={Haji} alt="ولیمہ کا مقام" loading="lazy" className="w-full h-80 object-cover" />
             </div>
           </div>
         </div>
 
         <article className="animate-fade-in">
           <div className="bg-background/70 backdrop-blur-sm border rounded-lg p-6 md:p-8 shadow-md">
-            <h3 className="sr-only">Walima Details</h3>
+            <h3 className="sr-only">تفصیلات ولیمہ</h3>
             <dl className="space-y-4">
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">Venue</dt>
-                <dd className="text-foreground font-medium">Haji Ali Function Hall, Aurangabad</dd>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">مقام</dt>
+                <dd className="text-foreground font-medium">حاجی علی فنکشن ہال، اورنگ آباد</dd>
               </div>
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">Date & Time</dt>
-                <dd className="text-foreground font-medium">[Date], [Time]</dd>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">تاریخ و وقت</dt>
+                <dd className="text-foreground font-medium">16 ستمبر sep , بعد نمازِ مغرب</dd>
               </div>
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground"></dt>
-                <dd className="text-muted-foreground">
-                 "In shaa Allah, our Walima will be held at Haji Ali Function Hall — a beautiful Sunnah of our beloved Prophet ﷺ, gathering family and friends in joy, gratitude, and the blessings of Allah."
+                <dd className="text-muted-foreground leading-loose">
+                  ان شاء اللہ ہمارا ولیمہ حاجی علی فنکشن ہال میں منعقد ہوگا — یہ ہمارے محبوب نبی ﷺ کی ایک خوبصورت سنت ہے، جو خاندان اور دوستوں کو خوشی، شکرگزاری اور اللہ کی برکتوں میں اکٹھا کرتی ہے۔
                 </dd>
               </div>
-              
             </dl>
           </div>
         </article>
@@ -268,9 +264,8 @@ const WalimaSection = () => {
 
 const Index = () => {
   return (
-    <>
-      {/* SEO H1 must exist and match intent */}
-      <h1 className="sr-only">Muhammad & Amatullah Wedding</h1>
+   <>
+      <h1 className="sr-only">محمد اور امت اللہ کی شادی</h1>
       <Nav />
       <main>
         <section
@@ -282,17 +277,18 @@ const Index = () => {
             backgroundPosition: "center",
           }}
         >
-          <div className="bg-background/60 animate-fade-in">
+          <div className="bg-background/60">
             <div className="container mx-auto pt-10 pb-20 md:pb-28 text-center">
-              
-              <h2 className="font-display text-5xl md:text-7xl text-foreground">Bismillah</h2>
-              <p className="text-lg pb-20 md:text-xl text-foreground">In the name of Allah, the most beneficent and merciful.</p>
+              <h2 className="font-amiri mb-5 text-5xl md:text-7xl text-foreground">بسم الله</h2>
+              <p className="text-lg mt-5 pb-20 md:text-xl text-foreground">
+                اللہ کے نام سے جو نہایت مہربان، رحم کرنے والا ہے۔
+              </p>
               <br />
-              <h2 className="font-display text-5xl md:text-7xl text-foreground">
-                Talha & Ariba
+              <h2 className="font-display mb-5 text-5xl md:text-7xl text-foreground">
+                طلحہ اور اریبہ
               </h2>
-              <p className="mt-4 text-lg md:text-xl text-muted-foreground">
-                We Are Getting Married On SEP 15, 2025
+              <p className="font-display mt-5 text-lg md:text-xl text-muted-foreground">
+                ان شاء اللہ ہماری شادی 15 ستمبر 2025 کو ہوگی
               </p>
             </div>
           </div>
@@ -304,9 +300,9 @@ const Index = () => {
               
             <Framed src={Groom}  alt="Groom portrait in cream sherwani with turban" caption={
               <div className=" ">
-                <div className="animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground ">Syed Mohammed Talha</div>
+                <div className="animate-pulse-scale delay-0 my-3 font-display text-2xl md:text-2xl text-foreground ">سید محمد طلحہ</div>
                 <div className=" text-sm text-muted-foreground animate-pulse-scale delay-200">Software Developer, B.Tech</div>
-                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">S/O : </span> Syed Mushtaq</div>
+                <div className="text-sm text-muted-foreground font-display animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">S/O : </span> سید مشتاق</div>
               </div>
             } />
 
@@ -314,39 +310,28 @@ const Index = () => {
             <div>
             <Framed  src={bouquet} alt="White roses and blush buds bouquet" caption={
               <>
-                 <div className=" delay-0 font-display text-4xl md:text-4xl text-foreground ">WEDS</div>
+                 <div className=" delay-0 font-display pb-5 text-4xl md:text-4xl text-foreground ">ویڈز</div>
               </>
             }  />
             </div>
            <div>
              <Framed src={prayerMat} alt="Beautiful prayer mat with 'Ariba' written on it and flowers" caption={
               <>
-                <div className=" animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground">Syeda Ariba</div>
-                <div className="text-sm text-muted-foreground animate-pulse-scale delay-200">Aalima</div>
-                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground">D/O : </span>  Syed Mohammad</div>
+                <div className=" animate-pulse-scale delay-0 font-display text-2xl md:text-2xl text-foreground">سیدہ اریبہ</div>
+                <div className="text-sm text-muted-foreground animate-pulse-scale delay-200">عالِمہ</div>
+                <div className="text-sm text-muted-foreground  animate-pulse-scale delay-400"><span className="font-bold text-muted-foreground"> D/O : </span> سید محمد</div>
               </>
             } />
            </div>
           </div>
         </section>
 
-        {/* Countdown Section - 36 days from now */}
-        <Countdown/>
-
-        {/* Nikah Section */}
+        <Countdown />
         <NikahSection />
-        <WalimaSection/>
-
+        <WalimaSection />
         <MapSection />
-        {/* Hadith Section */}
         <HadithSection />
-
-        {/* Dua Section */}
         <DuaSection />
-
-        {/* Map Section */}
-
-        {/* Ending Section */}
         <EndingSection />
       </main>
     </>
