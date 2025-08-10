@@ -142,7 +142,7 @@ const Countdown = () => {
 
 const NikahSection = () => {
   return (
-    <section className="container mx-auto pb-16 md:pb-24" aria-labelledby="nikah-title">
+    <section className="container mx-auto pb-16 md:pb-24 text-right" aria-labelledby="nikah-title">
       <div className="text-center mb-8 md:mb-10">
         <h2 id="nikah-title" className="font-amiri pb-12 text-4xl md:text-5xl text-accent-foreground tracking-wide">
           ان شاء اللہ
@@ -174,16 +174,20 @@ const NikahSection = () => {
             <h3 className="sr-only">تفصیلات نکاح</h3>
             <dl className="space-y-4">
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">مقام</dt>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">بمقام</dt>
                 <dd className="text-foreground font-medium">جامع مسجد، اورنگ آباد</dd>
               </div>
               <div>
                 <dt className="text-sm uppercase tracking-wide text-muted-foreground">تاریخ و وقت</dt>
-                <dd className="text-foreground font-medium">15 ستمبر sep , بعد نمازِ عصر</dd>
+                <dd className="text-foreground font-medium" dir="rtl">
+  <span dir="ltr">15</span> ستمبر، بعد نمازِ عصر
+
+</dd>
+
               </div>
               <div>
                 <dd className="text-muted-foreground leading-loose">
-                  ان شاء اللہ ہمارا نکاح تاریخی جامع مسجد، اورنگ آباد میں منعقد ہوگا — اللہ کے گھر میں، برکتوں اور ایمان کی خوشبو سے مہکتا ہوا۔
+                  ان شاء اللہ تقریبِ نکاح تاریخی جامع مسجد، اورنگ آباد میں منعقد ہوگا — اللہ کے گھر میں، برکتوں اور ایمان کی خوشبو سے مہکتا ہوا۔
                 </dd>
               </div>
             </dl>
@@ -203,7 +207,7 @@ const NikahSection = () => {
 
 const WalimaSection = () => {
   return (
-    <section className="container mx-auto pb-16 md:pb-24" aria-labelledby="walima-title">
+    <section className="container mx-auto pb-16 md:pb-24 text-right " aria-labelledby="walima-title">
       <div className="text-center mb-8 md:mb-10">
         <h2 id="walima-title" className="font-amiri pb-12 text-4xl md:text-5xl text-accent-foreground tracking-wide">
           ان شاء اللہ
@@ -235,16 +239,19 @@ const WalimaSection = () => {
             <h3 className="sr-only">تفصیلات ولیمہ</h3>
             <dl className="space-y-4">
               <div>
-                <dt className="text-sm uppercase tracking-wide text-muted-foreground">مقام</dt>
+                <dt className="text-sm uppercase tracking-wide text-muted-foreground">بمقام</dt>
                 <dd className="text-foreground font-medium">حاجی علی فنکشن ہال، اورنگ آباد</dd>
               </div>
               <div>
                 <dt className="text-sm uppercase tracking-wide text-muted-foreground">تاریخ و وقت</dt>
-                <dd className="text-foreground font-medium">16 ستمبر sep , بعد نمازِ مغرب</dd>
+                <dd className="text-foreground font-medium" dir="rtl">
+  <span dir="ltr">16</span> ستمبر، بعد نمازِ مغرب
+</dd>
+
               </div>
               <div>
                 <dd className="text-muted-foreground leading-loose">
-                  ان شاء اللہ ہمارا ولیمہ حاجی علی فنکشن ہال میں منعقد ہوگا — یہ ہمارے محبوب نبی ﷺ کی ایک خوبصورت سنت ہے، جو خاندان اور دوستوں کو خوشی، شکرگزاری اور اللہ کی برکتوں میں اکٹھا کرتی ہے۔
+                  ان شاء اللہ  ولیمہ مسنون حاجی علی فنکشن ہال میں منعقد ہوگا — یہ ہمارے محبوب نبی ﷺ کی ایک خوبصورت سنت ہے، جو خاندان اور دوستوں کو خوشی، شکرگزاری اور اللہ کی برکتوں میں اکٹھا کرتی ہے۔
                 </dd>
               </div>
             </dl>
@@ -280,16 +287,14 @@ const Index = () => {
           <div className="bg-background/60">
             <div className="container mx-auto pt-10 pb-20 md:pb-28 text-center">
               <h2 className="font-amiri mb-5 text-5xl md:text-7xl text-foreground">بسم الله</h2>
-              <p className="text-lg mt-5 pb-20 md:text-xl text-foreground">
+              <p className=" text-lg mt-5 pb-20 md:text-xl text-foreground">
                 اللہ کے نام سے جو نہایت مہربان، رحم کرنے والا ہے۔
               </p>
               <br />
               <h2 className="font-display mb-5 text-5xl md:text-7xl text-foreground">
-                طلحہ اور اریبہ
+               سید محمد طلحہ  
               </h2>
-              <p className="font-display mt-5 text-lg md:text-xl text-muted-foreground">
-                ان شاء اللہ ہماری شادی 15 ستمبر 2025 کو ہوگی
-              </p>
+              
             </div>
           </div>
         </section>

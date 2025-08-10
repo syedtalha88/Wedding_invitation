@@ -31,7 +31,7 @@ const MapSection = () => {
           <dl className="space-y-3 text-right">
             <div>
               <dt className="text-sm uppercase tracking-wide text-muted-foreground">
-                مقام
+                بمقام
               </dt>
               <dd className="text-foreground font-medium">{venueName}</dd>
             </div>
